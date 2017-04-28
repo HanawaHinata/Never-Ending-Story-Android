@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Never Ending Story</string>
+	<string name="banquan">Version 1.0 , ©2016 Nebula soft Game Allright Reserved.\n该项目是电子学院毕业项目成果展示计划的作品之一。了解详情</string>
+	<string name="config">环境设置</string>
+	<string name="BackgroundMusicPlayer1ServiceName">NES游戏背景音乐播放服务</string>
+</resources>

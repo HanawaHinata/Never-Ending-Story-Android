@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<EditText
+		android:id="@+id/edittext1"
+		android:layout_width="match_parent"
+		android:layout_height="0px"
+		android:text="/sdcard/数据包/pv.mp4"/>
+
+	<SurfaceView
+		android:id="@+id/sv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_alignParentBottom="true"
+		android:gravity="center_vertical">
+
+		<SeekBar
+			android:id="@+id/seekBar"
+			android:layout_width="400dp"
+			android:layout_height="2dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="right">
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="50dp"
+				android:id="@+id/btn_play"
+				android:background="#fff"/>
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="0dp"
+				android:id="@+id/btn_pause"/>
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="0dp"
+				android:id="@+id/btn_replay"/>
+
+			<Button
+				android:layout_height="50dp"
+				android:layout_width="0dp"
+				android:layout_gravity="right"
+				android:id="@+id/btn_stop"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

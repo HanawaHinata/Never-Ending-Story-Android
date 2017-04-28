@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ネバー エンディング ストーリー</string>
+	<string name="banquan">Version 1.0 , ©2016 Nebula soft Game Allright Reserved.\nこの项目は电子学院のずいぇく项目の成果展示作品。了解详情</string>
+	<string name="config">环境设定</string>
+	<string name="BackgroundMusicPlayer1ServiceName">NES游戏背景音乐播放服务</string>
+</resources>

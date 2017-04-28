@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000"
+	android:gravity="right">
+
+	<ImageView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:src="@drawable/main_bac"
+		android:id="@+id/imgview"
+		android:scaleType="centerCrop"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="right">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="720px"
+			android:orientation="vertical"
+			android:gravity="center|center_vertical"
+			android:background="#D0FFFFFF"
+			android:id="@+id/white_background">
+
+			<ImageView
+				android:layout_height="220px"
+				android:layout_width="720px"
+				android:src="@drawable/nes_main_banner"
+				android:layout_marginBottom="20px"
+				android:id="@+id/main_banner"/>
+
+			<RelativeLayout
+				android:layout_height="1px"
+				android:layout_width="match_parent"
+				android:background="#523825"
+				android:id="@+id/hover"/>
+
+			<Button
+				android:layout_height="110px"
+				android:layout_width="500px"
+				android:id="@+id/to_gdx_btn"
+				android:background="@drawable/button_1"
+				android:layout_gravity="center"
+				android:layout_marginTop="20px"/>
+
+			<Button
+				android:layout_height="110px"
+				android:layout_width="500px"
+				android:background="@drawable/button_2"
+				android:id="@+id/to_online_btn"
+				android:layout_gravity="center"
+				android:layout_marginTop="20px"/>
+
+			<Button
+				android:layout_height="110px"
+				android:layout_width="500px"
+				android:background="@drawable/button_4"
+				android:id="@+id/config_btn"
+				android:layout_gravity="center"
+				android:layout_marginTop="20px"/>
+
+			<Button
+				android:layout_height="110px"
+				android:layout_width="500px"
+				android:background="@drawable/button_5"
+				android:id="@+id/nes_club_btn"
+				android:layout_gravity="center"
+				android:layout_marginTop="20px"/>
+
+			<Button
+				android:layout_height="110px"
+				android:layout_width="500px"
+				android:background="@drawable/button_3"
+				android:id="@+id/exit_btn"
+				android:layout_gravity="center"
+				android:layout_marginBottom="20px"
+				android:layout_marginTop="20px"/>
+
+			<RelativeLayout
+				android:layout_height="1px"
+				android:layout_width="match_parent"
+				android:background="#523825"
+				android:id="@+id/hover"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:text="@string/banquan"
+				android:gravity="center"
+				android:textSize="7sp"
+				android:layout_margin="20px"
+				android:textColor="#523825"
+				android:id="@+id/copyright"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
