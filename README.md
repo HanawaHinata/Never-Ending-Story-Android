@@ -15,7 +15,8 @@
 《Never Ending Story》 是我在[Yuris文库](http://wp.yurishouse.cn)发表的一篇长篇同人小说，拙作一直处于编辑状态，因为现在的剧情我本人并不满意，还有细节描写上，甚至最近还想重写剧情。如果您感兴趣，欢迎前往Yuris文库搜索我的文章提出宝贵意见，我在这里替神大人谢过您了。
 
 ## 致歉
-以前决定的4月8日的发表日期我们延后了，因为前边我一不小心格了硬盘，源代码全没了。这次我们会重新写，也借此机会清除某些冗余代码。望各位谅解！
+1、从2017年6月8日起，我们暂停了所有的开发工作，本项目将封存，暂时不再更新。项目具体重开时间请关注[Never Ending Story 官方公告版](http://nes.nebula-soft.com/Announcement)。
+2、在公开本项目以前的源代码全部丢失，致使之前决定的4月8日的发表日期延后。这次我们会重新写，也借此机会清除某些冗余代码。望各位谅解！
 
 ## Licence
 除非另有声明，本项目遵循[GNU General Public License v3.0](https://github.com/bainesing/nebula-os-terminal-for-web/blob/master/LICENSE)许可协议。
